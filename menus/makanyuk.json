@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle makanyuk",
+        "command": "makanyuk:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "makanyuk",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "makanyuk:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
